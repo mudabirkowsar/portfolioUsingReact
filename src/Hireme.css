@@ -1,0 +1,145 @@
+.whyshouldhireme{
+    /* height: calc(100vh - 1000px); */
+    width: 100%;
+    /* border: 2px solid black; */
+}
+.hire-para{
+    color: #FFBDBD;
+    opacity: 0.8;
+    /* background-color: yellow; */
+    background-color: #061731;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.dflex{
+    display: flex;
+    flex-direction: column;
+    /* width: 60%; */
+    width: 85%;
+    padding: 20px;
+    /* background-color: rgb(152, 176, 219); */
+    /* background-color: #fff; */
+    /* border: 2px solid white; */
+}
+
+.ques{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    /* border:  2px solid red; */
+    position: relative;
+    transition: .3s ease-in-out;
+}
+
+.plus{
+    /* padding: 40px; */
+    /* padding-right: 0px; */
+    cursor: pointer;
+    /* background-color: #deeed7d8; */
+    /* background-color: #fff; */
+    /* border-top-left-radius: 15px; */
+    /* border-bottom-left-radius: 15px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.plus-div{
+    height: 100%;
+    width: 15%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #deeed7d8;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    /* border-radius: 15px; */
+}
+.hire-para{
+    width: 100%;
+}
+.d-flex{
+    height: 90px;
+    /* width: 650px; */
+    margin-bottom: 10px;
+    /* border: 2px solid yellow; */
+
+}
+.answer_div{
+    /* width: 650px; */
+    width: 100%;
+}
+.ques_div{
+    height: 100%;
+    width: 85%;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #deeed7d8;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.que{
+    width: 100%;
+    font-size: 26px;
+    /* padding: 20px; */
+    /* background-color: #deeed7d8; */
+    /* border-radius: 15px; */
+    /* border-top-left-radius: 0px; */
+    /* border-bottom-left-radius: 0px; */
+}
+
+.answer{
+    padding: 20px;
+    padding-top: 10px;
+    padding-left: 40px;
+    font-size: 22px;
+    border-radius: 20px;
+    background-color: #deeed78a;
+    color: rgb(90, 54, 54);
+}
+.ques:hover{
+    transform: scale(1.05);
+    /* margin-bottom: 30px; */
+}
+
+
+@media (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        height: auto;
+        width: 100%;
+    }
+    .dflex{
+        width: 100%;
+    }
+    .ques{
+        width: 100%;
+        padding: 0;   
+        font-size: 16px;
+    }
+
+    .que{
+        font-size: 16px;
+        padding: 10px;
+    }
+    .whyshouldhireme{
+        width: 90%;
+        margin: auto;
+    }
+    .plus{
+        font-size: 16px;
+        padding: 10px;
+    }
+    .answer{
+        font-size: 15px;
+        padding: 10px;
+    }
+}

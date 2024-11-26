@@ -1,0 +1,122 @@
+
+
+
+.mainAbout{
+    /* height: 100vh; */
+    height: auto;
+    /* border: 2px solid black; */
+}
+
+.maindiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.form{
+    width: 50%;
+    /* height: 300px; */
+    /* border: 2px solid yellow; */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px;
+}
+.imagediv{
+    padding-left: 20px;
+    width: 50%;
+    /* height: 300px; */
+    /* border: 2px solid black; */
+    /* background-image: url("../../public/about.png"); */
+}
+
+
+.imagediv img{
+    /* height: 100%; */
+    width: 100%;
+    /* height: 300px; */
+    /* width: 300px; */
+}
+.formDiv label{
+    color: #FFBDBD;
+    font-size: 22px;
+}
+.formDiv input{
+    height: 55px;
+    background-color: transparent;
+    border: 2px solid black;
+    width: 90%;
+    border-radius: 10px;
+}
+.formDiv textarea{
+    width: 90%;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.contactbtn {
+    width: 90%;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #263436;
+    transition: all 1000ms;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid #2c9caf;
+    border-radius: 20px;
+  }
+  
+.contactbtn:hover {
+    color: #ffffff;
+    transform: scale(1.01);
+    outline: 2px solid #2c3a3c;
+    box-shadow: 4px 5px 17px -4px #ffffff;
+  }
+  
+.contactbtn::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #35494c;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+  }
+  
+.contactbtn:hover::before {
+    width: 250%;
+  }
+  
+
+
+@media (max-width: 768px) {
+    .imagediv{
+        /* display: block; */
+        visibility: hidden;
+        width: 0%;
+        padding: 0;
+    }
+    .form{
+        width: 100%;
+        padding: 5;
+    }
+    .maindiv{
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
